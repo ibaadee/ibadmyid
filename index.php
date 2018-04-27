@@ -94,7 +94,7 @@
                 foreach($maps_array as $maps)
                 {
                     echo  "<div class='post-preview'>";
-                    echo "<a href='".$maps['link']."'>";
+                    echo "<a href='".$maps['guid']['rendered']."'>";
                     echo "<h2 class='post-title'>".$maps['title']['rendered']."</h2>";
                     echo "</a>";
                     echo "<p class='post-meta'>Posted by
